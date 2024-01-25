@@ -22,6 +22,9 @@ p {
 
 @media only screen and (max-width: 460px) {
     .maintext {font-size: 1.5em; }
+    #propostas-box {top: 180vh;}
+    #sobre-mim-box {top: 80%;}
+    #texto {font-size: 0.95em;}
 }
 
 .header {
@@ -93,9 +96,18 @@ p {
     text-align: center;
 }
 
+.sobre-mim-box {
+    position: absolute;
+    left: 15%;
+    top: 65%;
+    background-color: #fff;
+    width: 70%;
+    border-radius: 50px;
+}
+
 .propostas-box {
     position: absolute;
-    top: 100vh;
+    top: 120vh;
     width: 100%;
     padding: 0px;
     margin: 0px;
